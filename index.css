@@ -6,8 +6,17 @@
     box-sizing: border-box;
 }
 
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 main {
-    width: 100%;
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -20,7 +29,7 @@ section {
     align-items: center;
     justify-content: center;
     gap: 1rem;
-    padding: 1rem 15rem;
+    padding: 1rem;
     font-family: 'Noto Sans', sans-serif;
 }
 
@@ -38,6 +47,7 @@ h1 {
     font-size: 18px;
     font-weight: 400;
     text-align: center;
+    padding: 0 15rem;
 }
 
 h3 {
@@ -131,4 +141,9 @@ li {
     .plans-container {
         flex-direction: column;
     }
+
+    .description {
+        padding: 0 3rem;
+    }
+
 }
