@@ -148,4 +148,12 @@ li {
         padding: 0 3rem;
     }
 
+    .plans-container {
+        padding: 1rem;
+    }
+
+    .plan {
+        width: 23rem;
+    }
+
 }
